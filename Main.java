@@ -25,6 +25,7 @@ public class Main {
             arr[4][0] = "8";
         } catch (ArrayIndexOutOfBoundsException e) {
             e.printStackTrace();
+            System.out.println("размер массива не верный");
         }
 
         for (int i = 0; i < arr.length; i++) {
@@ -59,10 +60,4 @@ public class Main {
         return sum;
     }
 }
-
-
-
-
-
-
 
